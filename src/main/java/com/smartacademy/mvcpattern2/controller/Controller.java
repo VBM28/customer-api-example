@@ -14,8 +14,7 @@ import java.util.Optional;
 @RestController
 public interface Controller {
 
-
-
+    //comentariu
     @GetMapping("/getCustomer")
     GetCustomerResponse getCustomers(@RequestParam Optional<Integer> customerId,
                                      @RequestParam Optional<String> phoneNumber,
